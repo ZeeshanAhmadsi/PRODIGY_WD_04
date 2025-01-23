@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("YOUR_EMAILJS_USER_ID"); // Replace with your EmailJS User ID
+        })();
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="#home">Portfolio</a></h1> 
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-media"> <!-- Social media handles -->
+                <a href="https://github.com/ZeeshanAhmadsi" target="_blank" rel="noopener" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/zeeshan-ahmad-siddiqui" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://leetcode.com/u/khanzeeshan84854/" target="_blank" rel="noopener noreferrer" title="LeetCode">
+                    <i class="fas fa-code"></i> <!-- Font Awesome code icon for LeetCode -->
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm [Zeeshan Ahmad Siddiqui]</h1>
+            <p>Welcome to my portfolio website!</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about" class="about fade-in">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm [Zeeshan Ahmad Siddiqui], a passionate <strong>Full Stack Developer (FSD)with an understanding of Data Structures and Algorithms (DSA)</strong>. I thrive on solving  problems and building scalable, efficient, and user-friendly applications. As a <strong>tech enthusiast</strong>, I'm always exploring the latest trends and technologies to stay ahead in the ever-evolving world of software development.
+        </p>
+        <p>
+            My journey in tech began with a curiosity for how things work, and it has since grown into a deep love for coding and creating impactful solutions. Whether it's designing intuitive user interfaces or optimizing backend systems, I enjoy every aspect of the development process.
+        </p>
+        <p>
+            When I'm not coding, you can find me participating in coding challenges, contributing to open-source projects, or diving into new tech stacks. I believe in continuous learning and sharing knowledge with the community.
+        </p>
+        <p>
+            Let's connect and build something amazing together!
+        </p>
+    </section>
+
+    <section id="skills" class="skills fade-in">
+        <h2>Skills</h2>
+        <ul>
+            <li>
+                <i class="fab fa-html5"></i>
+                <span>HTML</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <i class="fab fa-react"></i>
+                <span>React</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <i class="fab fa-node"></i>
+                <span>Node.js</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <i class="fab fa-python"></i>
+                <span>Python</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <i class="fas fa-database"></i> <!-- Generic database icon for MongoDB -->
+                <span>MongoDB</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <i class="fas fa-server"></i> <!-- Generic server icon for Express.js -->
+                <span>Express.js</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <i class="fas fa-code"></i> <!-- Generic code icon for C/C++ -->
+                <span>C/C++</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <i class="fas fa-database"></i> <!-- Generic database icon for MySQL -->
+                <span>MySQL</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+        </ul>
+    </section>
+      
+
+    <section id="projects" class="projects fade-in">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3> Serene Skylight Haven</h3>
+                <p>
+                    Escape to this peaceful, bright retreat with beautiful views. Surrounded by nature but close to the city, it’s great for relaxing, stargazing, or spending cozy evenings with loved ones.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>InvestEase Hub</h3>
+                <p>Simplify your trading and investing journey with our user-friendly platform. Offering low costs, advanced tools, and expert support, it's perfect for beginners and experienced traders looking to grow their wealth with ease.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>SignifyText</h3>
+                <p>Bridging communication gaps, SignifyText converts sign language into clear, real-time text. With advanced AI and seamless integration, it empowers inclusive conversations, making communication accessible for everyone, everywhere.</p>
+                <a href="https://github.com/ZeeshanAhmadsi/Sign-Language-to-Text-using-CNN" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="experience fade-in">
+        <h2>Experience</h2>
+        <div class="experience-grid">
+            <div class="experience-card">
+                <h3>Web Development Intern</h3>
+                <p class="company">Prodigy Infotech</p>
+                <p class="duration">Jan 2025 - feb 2025</p>
+                <ul>
+                    <li>Designed and developed responsive and user-friendly websites using HTML, CSS, and JavaScript.</li>
+                    <li>Built dynamic web applications using modern frameworks like React.js for front-end development.</li>
+                    <li>Integrated RESTful APIs to fetch and display data dynamically on the front end.</li>
+                </ul>
+            </div>
+            <div class="experience-card">
+                <h3>Software Engineer Intern</h3>
+                <p class="company">Code Masters</p>
+                <p class="duration">Jun 2021 - Dec 2021</p>
+                <ul>
+                    <li>Assisted in building RESTful APIs and integrating them with front-end applications.</li>
+                    <li>Participated in code reviews and contributed to improving code quality.</li>
+                    <li>Gained hands-on experience with Agile methodologies and version control (Git).</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact fade-in">
+        <h2>Contact Me</h2>
+        <form action="https://getform.io/f/ayvvlkvb" method="POST" class="contact-form">
+            <!-- Name Field -->
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+        
+            <!-- Email Field -->
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        
+            <!-- Message Field -->
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+        
+            <!-- Hidden Honeypot Field -->
+            <input type="hidden" name="_gotcha">
+        
+            <!-- Checkbox Field -->
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="subscribe" value="yes" checked>
+                    Subscribe to newsletter
+                </label>
+                <input type="hidden" name="subscribe" value="no">
+            </div>
+        
+            <!-- Radio Button Field -->
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="gender" value="male" checked> Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female"> Female
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="other"> Other
+                    </label>
+                </div>
+            </div>
+        
+            <!-- Select Field -->
+            <div class="form-group">
+                <label for="work-experience">Work Experience:</label>
+                <select id="work-experience" name="work-experience">
+                    <option value="one-year">0-1 years</option>
+                    <option value="one-five-years">1-5 years</option>
+                </select>
+            </div>
+        
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit" class="btn">Send</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
