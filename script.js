@@ -26,3 +26,5 @@ document.getElementById('contact-form').addEventListener('submit', function(even
             alert('Failed to send message. Please try again.');
         });
 });
+
+

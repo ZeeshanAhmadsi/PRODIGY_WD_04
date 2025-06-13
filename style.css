@@ -507,3 +507,42 @@ footer p {
         transform: scale(1);
     }
 }
+
+/* Add these lines to existing styles, or replace where needed */
+
+/* Fade-In for new sections */
+.experience, .certifications, .hobbies {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.experience.fade-in, .certifications.fade-in, .hobbies.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Typewriter Effect (Optional if using in JS) */
+.typewriter {
+    display: inline-block;
+    border-right: 2px solid #ecf0f1;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink-caret 0.75s step-end infinite;
+}
+
+/* Blinking caret */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #ecf0f1;
+    }
+}
+
+/* Disable button while sending */
+.btn:disabled {
+    background-color: #95a5a6; /* Greyed out */
+    cursor: not-allowed;
+}
+
